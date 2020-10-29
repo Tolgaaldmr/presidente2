@@ -1,0 +1,56 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^12.3.1",
+    "fs": "^0.0.2",
+    "quick.db": "^7.1.2",
+    "chalk": "^4.1.0",
+    "moment": "^2.29.1",
+    "util": "^0.12.3",
+    "http": "^0.0.0",
+    "parse-ms": "^2.1.0",
+    "discord-anti-spam": "^2.4.1",
+    "common-tags": "^1.8.0",
+    "crypto": "^1.0.1",
+    "node-superfetch": "^0.1.10",
+    "weather-js": "^2.0.0",
+    "math-expression-evaluator": "^1.2.22",
+    "os": "^0.1.1",
+    "cpu-stats": "^1.0.0",
+    "moment-duration-format": "^2.3.2",
+    "cpu-stat": "^2.0.1",
+    "jimp": "^0.16.1",
+    "figlet": "^1.5.0",
+    "ms": "^2.1.2",
+    "dblapi.js": "^2.4.1",
+    "ytdl-core": "^3.2.2",
+    "simple-youtube-api": "^5.2.1",
+    "node-opus": "^0.3.3",
+    "discord.js-commando": "^0.10.0",
+    "superagent": "^6.1.0",
+    "google-tts-api": "^0.0.4",
+    "google-tts": "^1.1.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
